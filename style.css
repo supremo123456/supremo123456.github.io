@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(56, 157, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color: white;
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.navbar ul{
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 35%;
+    padding: 10px 20px;
+}
+.navbar ul li{
+    font-size: large;
+    color: black;
+    display: inline;
+    list-style: none;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    color: rgb(56, 197, 56);
+}
+button{
+    margin-top: -2px;
+    border: none;
+    background: rgb(56, 197, 56);
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    color: rgb(255, 255, 10);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.navbar h2{
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    margin-left: 225px;
+    margin-top: -5%;
+    font-size: 45px;
+}
+#Logo{
+    height: 120px;
+    width: 165px;
+    margin-left: 3%;
+    margin-top: px;
+}
+.Design img{
+    margin-top: 200px;
+    margin-left: 160px;
+    border-radius: 50px;
+}
+.Design {
+    color: rgb(255, 255, 10);
+}
+.Design h3{
+    text-align: justify;
+    width: 450px;
+    margin-left: 51%;
+    margin-top: -250px;
+}
+.Design p{
+    width: 650px;
+    text-align: justify;
+    margin-left: 50%;
+    margin-top: -220px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+#Cebu{
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 51%;
+    margin-bottom: -270px;
+    color: wheat;
+}
+#Cebu:hover{
+    color: rgb(255, 255, 10);
+}
+table img{
+    width: 200px;
+    margin-left: 380%;
+    margin-top: 25%;
+}
+.Services{
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+legend{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 30px;
+}
+/*Part 2*/
+.City{
+    margin-left: -2%;
+    margin-bottom: 20px;
+    z-index: 0;
+}
+.City h1{
+    margin-top: 150px;
+    margin-left: 140px;
+    font-size: 120px;
+    color: rgba(255, 255, 10, 0.267);
+}
+.City h3{
+    margin-left: 150px;
+    margin-top: -4%;
+    color: rgb(255, 255, 10);
+}
+/*---------------------*/
+.City img{
+    transition: .4s;
+}
+.City img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.container{
+    position: relative;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.container1{
+    position: relative;
+    margin-left: 480px;
+    margin-top: -242px;
+}
+.container2{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -243px;
+}
+.container3{
+    position: relative;
+    margin-left: 1120px;
+    margin-top: -244px;
+}
+.container img{
+    height: 220px;
+    width: 290px;
+}
+.container1 img{
+    height: 220px;
+    width: 290px;
+}
+.container2 img{
+    height: 220px;
+    width: 290px;
+}
+.container3 img{
+    height: 220px;
+    width: 290px;
+}
+.text{
+    position: absolute;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 10, 0.003);
+    font-size: 45px;
+    text-align: center;
+
+    transition: transform 0.5s ease;
+    transform: scale(1);
+}
+.text:hover{
+    transform: scale(1.2);
+    color: rgba(255, 255, 10, 0.575);
+}
+#text1{
+    margin-left: 2%;
+}
+#text2{
+    margin-left: 3%;
+}
+#text3{
+    margin-left: 4%;
+}
+#text4{
+    margin-left: 5%;
+}
+#App{
+    margin-top: -15%;
+    margin-left: 140px;
+    font-size: 120px;
+    color: rgba(255, 255, 10, 0.267);
+}
+#Motto{
+    margin-left: 150px;
+    margin-top: -4%;
+    color: rgb(255, 255, 10);
+}
+#Use{
+    margin-left: 150px;
+    margin-top: -30%;
+}
+.Par1{
+    text-align: justify;
+    margin-left: 150px;
+    width: 500px;
+    padding: 10px 5px;
+}
+.Phone{
+    width: 100%;
+    height: 350px;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 10);
+}
+.Phone img{
+    margin-left: 65%;
+    margin-top: -10%;
+    transition: .4s;
+}
+.Phone img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#Bus{
+    margin-top: 8%;
+    margin-left: 140px;
+    font-size: 120px;
+    color: rgba(255, 255, 10, 0.267);
+}
+#Motto1{
+    margin-top: -4%;
+    margin-left: 150px;
+    color: rgb(255, 255, 10);
+}
+.picBus{
+    width: 100%;
+    background-image: url('https://www.cficoop.com/wp-content/uploads/2021/02/Pitam-9-1024x576.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-top: 2%;
+}
+/*Footer*/
+.footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 250px;
+    background-color: white;
+}
+.footer img{
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.footer h4{
+    margin-top: -1%;
+    margin-left: 10%;
+}
+legend{
+    margin-top: -12%;
+    margin-left: 28%;
+    font-size: 25px;
+    color: black;
+}
+.FirstList{
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.SecondList{
+    margin-left: 60%;
+    margin-top: -59px;
+}
+.ThirdList{
+    margin-left: 75%;
+    margin-top: -59px;
+}
+.footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer th img{
+    width: 40px;
+    height: 40px;
+    margin-left: 950%;
+    margin-top: 50%;
+    transition: .4s;
+}
+.footer th img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#Copyright{
+    margin-left: 40%;
+    margin-top: -30px;
+}
